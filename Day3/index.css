@@ -1,0 +1,13 @@
+.welcome-message{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  color: #333;
+  background-color: rgb(111, 143, 171);
+}
+
+.login-prompt{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: rgb(190, 40, 40);
+}
