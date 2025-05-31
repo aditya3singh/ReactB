@@ -1,0 +1,41 @@
+.cato{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.cato:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-color: hsl(0, 0%, 100%);
+    cursor: none;
+}
+
+.listItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listItems li{
+    list-style: none;
+    font-size: 1.5em;
+    color: hsl(0, 0%, 20%);
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid hsl(0, 0%, 20%);
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 90%);
+}
+.listItems li:hover{
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
