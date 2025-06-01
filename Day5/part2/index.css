@@ -1,0 +1,30 @@
+.counter-container{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.count-display{
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.counter-button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: #061d5b; /* Green */
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.counter-button:hover{
+    background-color: #e73434; /* Darker green on hover */
+}
+.counter-button:focus{
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 0 2px rgba(8, 216, 226, 0.5); /* Add a subtle focus ring */
+}
